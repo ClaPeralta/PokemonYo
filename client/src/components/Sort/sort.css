@@ -1,0 +1,11 @@
+.dropdown .capitalizeText {
+  font-size: 25px;
+  margin-top: 5px;
+  padding-left: 5px;
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1479ec;
+  font-family: "Rubik", sans-serif;
+}

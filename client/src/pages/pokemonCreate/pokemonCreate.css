@@ -1,0 +1,19 @@
+.nav {
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  background-color: #1479ec;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}

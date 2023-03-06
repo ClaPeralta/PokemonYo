@@ -1,0 +1,101 @@
+.form-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.create-container {
+  background-color: #fff;
+  width: 700px;
+  min-height: 420px;
+  border-radius: 50px;
+  position: relative;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border: solid;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.create-container .detailCard {
+  background-color: #1479ec;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  border-radius: 50px 50px 0 0;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.pokemonData {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  display: block;
+  margin-top: 0;
+  padding: 50px;
+}
+
+.form-container .red-img {
+  position: relative;
+  left: -100px;
+  filter: drop-shadow(2px 2px 2px gray);
+}
+
+.create-container .pokemonData .divCreate {
+  display: flex;
+}
+
+.create-container .pokemonData .divCreate .left .divInputCreate .inputCreate,
+.create-container .pokemonData .divCreate .rigth .divInputCreate .inputCreate {
+  font-size: 25px;
+  margin-top: 5px;
+  padding-left: 35px;
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f8f7f7;
+}
+
+.create-container .pokemonData .divCreate .rigth .dropdown .capitalizeText {
+  font-size: 25px;
+  margin-top: 5px;
+  padding-left: 5px;
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f8f7f7;
+  font-family: "Rubik", sans-serif;
+}
+
+.create-container .pokemonData .divCreate .left .error-input,
+.create-container .pokemonData .divCreate .rigth .error-input {
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  color: #1479ec;
+  margin-right: 10px;
+}
+
+.create-container .divCreate .action-button {
+  cursor: pointer;
+  font-size: 25px;
+  position: relative;
+  top: 370px;
+  right: 220px;
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #1479ec;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+  border: none;
+  margin-top: 5px;
+}

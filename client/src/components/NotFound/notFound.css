@@ -1,0 +1,15 @@
+.mesage-container {
+  position: relative;
+  top: -130px;
+}
+
+.container-notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.notFound-gif {
+  display: flex;
+}

@@ -1,0 +1,35 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.arrow {
+  height: 30px;
+}
+
+.arrow-left {
+  transform: rotate(180deg);
+}
+
+.button-arrow {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 200%;
+  border: none;
+  background-color: #1479ec;
+  transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+}
+
+.button-arrow:hover {
+  --escala: 1.2;
+  cursor: pointer;
+}
+
+label {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

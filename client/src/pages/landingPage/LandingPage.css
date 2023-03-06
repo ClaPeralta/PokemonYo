@@ -1,0 +1,61 @@
+.landing-container {
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+.landing-logo {
+  height: 140px;
+  filter: drop-shadow(10px 10px 10px #d6d606e6);
+}
+
+.landing-rigth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1479ec;
+  border-radius: 00% 0 0 60%;
+  box-shadow: 0 0 24px 24px #d6d606e6;
+  padding: 180px;
+}
+
+.landing-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-bottom: 5px;
+}
+
+.landing-left h1 {
+  margin-left: 0;
+  font-size: 60px;
+}
+
+.landing-left p {
+  text-justify: auto;
+}
+
+.landing-button {
+  font-size: 15px;
+  color: #1479ec;
+  background-color: #d6d606e6;
+  min-height: 40px;
+  min-width: 120px;
+  border-radius: 2rem;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  transform: scale(var(--escala, 1));
+  transition: transform 0.25s;
+}
+
+button:hover {
+  --escala: 1.2;
+  cursor: pointer;
+}
