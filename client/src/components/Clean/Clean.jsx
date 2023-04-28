@@ -12,7 +12,7 @@ export default function Clean() {
             className="cleanFilter"
             onClick={() => dispatch(getPokemons())}
           >
-            Clean
+            Clear Filter
           </button>
         </div>
       )}

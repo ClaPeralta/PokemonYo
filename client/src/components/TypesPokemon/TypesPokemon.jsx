@@ -26,7 +26,7 @@ export default function TypesPokemon({ setPokeCurrent }) {
           onClick={() => dispatch(filterType(type))}
         >
           <div className="imageType">
-            <img height={"50px"} src={imgType[type]} alt={`Type: ${type}`} />
+            <img height={"72px"} src={imgType[type]} alt={`Type: ${type}`} />
           </div>
           <span>{type}</span>
         </button>
