@@ -6,7 +6,7 @@ const API_POKEMON_NAME_OR_ID = "http://pokeapi.co/api/v2/pokemon/";
 const getApiInfo = async () => {
   try {
     const pokeRequest = await axios.get(
-      "http://pokeapi.co/api/v2/pokemon?limit=48"
+      "http://pokeapi.co/api/v2/pokemon?limit=44"
     );
     const pokeSubRequest = pokeRequest.data.results.map((el) =>
       axios.get(el.url)

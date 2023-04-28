@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import imgType from "../../assets/helpers/TypesIcon";
 import "./card.css";
-export default function Card({ id, name, img, types }) {
+export default function Card({ id, name, img, types, weight }) {
   return (
     <div>
       <div className="card">
@@ -29,6 +29,9 @@ export default function Card({ id, name, img, types }) {
               {types.map((t) => {
                 return <img src={imgType[t.name]} alt="Type" />;
               })}
+            </div>
+            <div className="peso">
+              <p>Peso: {weight}</p>
             </div>
             <Link to={"/detail:" + id}>
               <p>Details</p>

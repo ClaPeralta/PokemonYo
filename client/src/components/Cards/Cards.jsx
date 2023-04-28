@@ -13,6 +13,7 @@ export default function Cards({ pokeCurrent }) {
             name={poke.name}
             img={poke.sprite}
             types={poke.types}
+            weight={poke.weight}
           />
         ))
       ) : (
@@ -22,6 +23,7 @@ export default function Cards({ pokeCurrent }) {
           name={pokeCurrent.name}
           img={pokeCurrent.sprite}
           types={pokeCurrent.types}
+          weight={pokeCurrent.weight}
         />
       )}
     </div>
